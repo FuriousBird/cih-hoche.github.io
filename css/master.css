@@ -1,16 +1,9 @@
-body {
-  font-family: sans-serif;
-  margin: 0;
-  background: #34495e;
-  color: #ecf0f1;
-}
-
 header {
   width: 100%;
   height: 800px;
   padding: 0;
   margin: 0;
-  background: url("/img/header.jpg");
+  background: url("/img/header_preblur.jpg");
   background-position: bottom;
   background-size: cover;
   position: relative;
@@ -37,11 +30,14 @@ header h1 {
   text-align: center;
   text-transform: uppercase;
   color: white;
+  margin: 0px
 }
 
 .short_text {
   display: none;
 }
+
+/* sections and content */
 
 section {
   position: relative;
@@ -82,8 +78,4 @@ section .presentation_section.section_sans_image {
   section .presentation_section p {
     padding: 5%;
   }
-}
-
-* {
-  max-width: 100%;
 }
